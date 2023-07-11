@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <style>
+        h2
+        {
+        color: lightblue;
+        background-color: rgb(60, 66, 51);
+        font-family: 'Poppins', sans-serif;
+        }
+        input[type="text"]
+        {
+            width: 200px;
+            border-radius: 10px;
+            padding: 2px;
+            color: cadetblue;
+            font-weight: bolder;            
+            font-family: 'Poppins', sans-serif; 
+        }
+        input[type="number"]
+        {
+            width: 200px;
+            border-radius: 10px;
+            padding: 2px;
+            color: cadetblue;
+            font-weight: bolder;
+            font-family: 'Poppins', sans-serif; 
+        }
+        input[type="date"]
+        {
+            width: 200px;
+            border-radius: 10px;
+            padding: 2px;
+            color: cadetblue;
+            font-weight: bolder;
+            font-family: 'Poppins', sans-serif; 
+        }
+        input[type="email"]
+        {
+            width: 200px;
+            border-radius: 10px;
+            padding: 2px;
+            color: cadetblue;
+            font-weight: bolder;
+            font-family: 'Poppins', sans-serif; 
+        }
+        input[type="tel"]
+        {
+            width: 200px;
+            border-radius: 10px;
+            padding: 2px;
+            color: cadetblue;
+            font-weight: bolder;
+            font-family: 'Poppins', sans-serif; 
+        }
+        table
+        {
+            background-color: #ffbe76;
+        }
+        label
+        {
+            font-family: 'Signika Negative', sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+
+   
+    
+<h2>Student Registeration Form</h2>
+    <table>
+        <tbody>
+            <form>
+            <tr>
+                <td><label>First Name</label></td>
+                <td><input type="text" required ></td>
+            </tr>
+            <tr>
+                <td><label>Last Name</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label>Age</label></td>
+                <td><input type="number" required></td>
+            </tr>
+            <tr>
+                <td><label>Date of Birth</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label>Email</label></td>
+                <td><input type="email" required></td>
+            </tr>
+            <tr>
+                <td><label>Mobile</label></td>
+                <td><input type="tel" required></td>
+            </tr>
+            <tr>
+                <td> <label>Select Country</label> </td>
+                <td>
+                    <select>
+                        <option value="India">India</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Germany">Germany</option>
+                        <option value="France">France</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Gender</label></td>
+                <td>
+                    <input type="radio" name="gender"> <label>Male</label>
+                    <input type="radio" name="gender"> <label>Female</label>
+                    <input type="radio" name="gender"> <label>Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Technology stack</label></td>
+                <td>
+                    <input type="checkbox"><label> C</label>
+                    <input type="checkbox"><label> Angular</label>
+                    <input type="checkbox"><label> DevOps</label>
+                    <input type="checkbox"><label> React</label>
+                    <input type="checkbox"><label> CPP</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Present Address</label></td>
+                <td><textarea></textarea></td>
+            </tr>
+            <tr>
+                <td><button type="submit">submit</button></td>
+                <td><button type="reset">Reset</button></td>
+            </tr>
+        </form>
+        </tbody>
+    </table>
+ 
+
+</body>
+</html>
