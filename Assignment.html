@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsubscribe Page</title>
+    <style>
+    .container
+    {
+       width: 375px;
+       height: 540px;
+       border: 1px solid black;
+       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+       padding: 15px;
+       margin: auto;
+       border-radius: 6px;
+    }
+
+    .container-one
+    {
+       background-color: rgb(176, 207, 255);
+       width: 325px;
+       height: 180px;
+       align-items: center;
+       margin: auto;
+       padding: 20px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       border-radius: 8px;
+    }
+
+    h2
+    {
+        /* margin: auto; */
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+     input[type="email"]
+    {
+       width: 365px;
+       padding: 4px;
+       margin-bottom: 20px;
+    }
+
+    input[type="text"]
+    {
+       width: 355px;
+       padding: 9px;
+       margin-bottom: 20px;
+    }
+
+    .registration
+    {
+       padding-top: 20px;
+    }
+
+    label
+    {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    button
+    {
+        padding: 5px;
+        float: right;
+        background-color: rgb(235, 243, 243);
+        margin-top: 15px;
+    }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Subscriber</h2>
+        <hr>
+
+        <div class="container-one">
+          <span>We're sorry to see you go, but hey, no hard</span><br>
+          <span>feelings, hopefully we will see you back</span><br>
+          <span>one day.</span><br>
+          <span>Please fill in your email address in order to</span><br>
+          <span>unsubscribe from the list.</span><br>
+          <span>You will receive an email to confirm your</span><br>
+          <span>unsubscription, just to make sure this is</span><br>
+          <span>not an accident of somebody else tries to</span><br>
+          <span>unsubscribe you.</span>  
+        </div>
+
+        <div class="registration">
+            <form class="myform">
+                 
+                <label>Email</label>
+                <input type="email" required>
+                        
+                <label>Unsubscribe reason</label>
+                <input type="text" placeholder="Unsubscribe reason">
+                 
+            </form>
+        </div>
+        <hr>
+
+        <button type="button">Unsubscribe</button>
+
+    </div>
+    
+</body>
+</html>
