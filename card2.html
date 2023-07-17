@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Standard</title>
+    <style>
+      .container-one {
+        display: inline-block;
+        position: relative;
+        list-style: none;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        width: 240px;
+        border-radius: 5px;
+        margin-left: 45px;
+        top: 25px;
+      }
+      #one {
+        text-align: center;
+        background-color: rgb(35, 170, 141);
+        color: rgb(246, 240, 240);
+        padding-top: 1px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        font-size: x-large;
+
+      }
+      li {
+        list-style: none;
+        font-size: l;
+        margin-bottom: 3px;
+      }
+      .container-two {
+        display: inline-block;
+        width: 240px;
+        position: relative;
+        list-style: none;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        margin-left: 30px;
+      }
+      .container-three {
+        display: inline-block;
+        position: relative;
+        list-style: none;
+        width: 240px;
+        border-radius: 5px;
+        margin-left: 30px;
+        top: 25px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      }
+      button {
+        width: 190px;
+        height: 30px;
+        background-color: rgb(26, 151, 124);
+        right: 15px;
+        border-radius: 5px;
+        border: none;
+        position: relative;
+        color: white;
+        margin-bottom: 10px;
+      }
+
+      ul li::before {
+        content: "✔️";
+      }
+      .cross::before {
+        content: "❌";
+      }
+      h1 {
+        left: 60px;
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      p {
+        position: relative;
+        bottom: 12px;
+      }
+      #two {
+        text-align: center;
+        background-color: rgb(207, 38, 38);
+        color: white;
+        font-size: x-large;
+        padding-top: 1px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="container-one">
+      <div id="one"><p>Basic</p></div>
+
+      <ul>
+        <li>Hosting</li>
+        <li class="cross">Domain</li>
+        <li>1GB Space</li>
+        <li class="cross">Free SSL</li>
+        <li>1 Website Host</li>
+        <h1>$5</h1>
+        <button>Buy Now</button>
+      </ul>
+    </div>
+    <div class="container-two">
+      <div id="two"><p>Standard</p></div>
+
+      <ul>
+        <li>Hosting</li>
+        <li>Domain</li>
+        <li>10GB Space</li>
+        <li class="cross">Free SSL</li>
+        <li>4 Website Host</li>
+        <h1>$10</h1>
+        <button>Buy Now</button>
+      </ul>
+    </div>
+    <div class="container-three">
+      <div id="one"><p>Standard</p></div>
+
+      <ul>
+        <li>Hosting</li>
+        <li>Domain</li>
+        <li>10GB Space</li>
+        <li>Free SSL</li>
+        <li>4 Website Host</li>
+        <h1>$20</h1>
+        <button>Buy Now</button>
+      </ul>
+    </div>
+  </body>
+</html>
